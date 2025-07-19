@@ -1,78 +1,45 @@
-<div class="event-slideshow">
-    <div class="slideshow-container">
-        {{ $images := split (.Get "images" | default "") "||" }}
-        {{ $captions := split (.Get "captions" | default "") "||" }}
-        {{ $maxHeight := .Get "maxheight" | default "340px" }}
-        {{ $hasParams := and (gt (len $images) 0) (ne (index $images 0) "") }}
-        {{ if $hasParams }}
-        {{ range $i, $img := $images }}
-        {{ $caption := (cond (lt $i (len $captions)) (index $captions $i | default (printf "Event %d" (add
-        $i 1))) (printf "Event %d" (add $i 1))) }}
-        <div class="slide">
-            <img src="{{ trim $img " " }}" alt="{{ $caption }}"
-                style="width:100%;max-height:{{ $maxHeight }};object-fit:cover;border-radius:8px;">
-            <div class="caption">{{ $caption }}</div>
-        </div>
-        {{ end }}
-        {{ else }}
-        {{ $events := site.Data.events }}
-        {{ if $events }}
-        {{ range $events }}
-        <div class="slide">
-            <img src="{{ .image }}" alt="{{ .caption }}"
-                style="width:100%;max-height:{{ $maxHeight }};object-fit:cover;border-radius:8px;">
-            <div class="caption">{{ .caption }}</div>
-        </div>
-        {{ end }}
-        {{ else }}
-        <!-- Fallback: No events data found -->
-        {{ end }}
-        {{ end }}
-    </div>
-</div>
+<!-- Local jQuery and Fotorama assets -->
+<link href="/css/fotorama.css" rel="stylesheet">
+<script src="/js/jquery-3.7.1.min.js"></script>
+
+<script src="/js/fotorama.js"></script>
 <script>
-    let slideIndex = 0;
-    showSlides();
-    function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("slide");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
+    // Ensure Fotorama is initialized after DOM and scripts are loaded
+    (function () {
+        function initFotorama() {
+            if (window.jQuery && window.jQuery.fn && window.jQuery.fn.fotorama) {
+                window.jQuery('.fotorama').fotorama();
+            } else {
+                setTimeout(initFotorama, 100);
+            }
         }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1 }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 4000); // Change image every 4 seconds
-    }
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initFotorama);
+        } else {
+            initFotorama();
+        }
+    })();
 </script>
-<style>
-    .event-slideshow {
-        max-width: 600px;
-        margin: 2em auto;
-    }
 
-    .slideshow-container {
-        position: relative;
-    }
-
-    .slide {
-        display: none;
-    }
-
-    .slide img {
-        width: 100%;
-        object-fit: cover;
-        border-radius: 8px;
-    }
-
-    .caption {
-        text-align: center;
-        background: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        padding: 0.5em;
-        border-radius: 0 0 8px 8px;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-</style>
+<div class="fotorama" data-width="100%" data-maxheight="{{ .Get "maxheight" | default "500px" }}" data-ratio="16/9"
+    data-fit="contain" data-nav="false" data-loop="true" data-autoplay="3000" data-caption="true">
+    {{ $images := split (.Get "images" | default "") "||" }}
+    {{ $captions := split (.Get "captions" | default "") "||" }}
+    {{ $hasParams := and (gt (len $images) 0) (ne (index $images 0) "") }}
+    {{ if $hasParams }}
+    {{ range $i, $img := $images }}
+    {{ $caption := (cond (lt $i (len $captions)) (index $captions $i | default "" ) (printf
+    "Event %d" (add $i 1))) }}
+    <img src="{{ trim $img " " }}" alt="{{ $caption }}" title="{{ $caption }}" data-caption="{{ $caption }}">
+    {{ end }}
+    {{ else }}
+    {{ $events := site.Data.events }}
+    {{ if $events }}
+    {{ range $events }}
+    <img src="{{ .image }}" alt="{{ .caption }}" title="{{ .caption }}" data-caption="{{ .caption }}">
+    {{ end }}
+    {{ else }}
+    <!-- Fallback: No events data found -->
+    {{ end }}
+    {{ end }}
+</div>

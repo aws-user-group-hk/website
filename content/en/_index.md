@@ -5,9 +5,9 @@ kind: page
 ---
 
 {{< eventslideshow 
-images="/images/events/buildercards-mar-2025.jpeg||/images/events/humanoid-robotics-2025-07.jpeg||/images/events/genai-devops-2025-06.jpeg||/images/events/oct-2024-meetup.jpeg"
-captions="AWS UG HK BuilderCards Night – Level Up Your Cloud Strategy (March 2025)||AWS UG HK BuilderCards Night – Level Up Your Cloud Strategy (March 2025)||AWS Visitation: Career Insights with GenAI and AWS (May 2025)||AWS UG HK Meetup – User Group Meetup (October 2024)" 
-maxheight="500px"
+images="/images/logo.jpg"
+captions=""
+maxheight="400px"
 >}}
 
 We are a community of AWS users, professionals, and enthusiasts in Hong Kong. Our mission is to connect people, share knowledge, and promote best practices around Amazon Web Services.

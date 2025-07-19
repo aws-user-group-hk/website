@@ -5,7 +5,7 @@ description: Discover upcoming and past events organized by AWS User Group Hong 
 
 {{< eventslideshow 
 images="/images/events/buildercards-mar-2025.jpeg||/images/events/humanoid-robotics-2025-07.jpeg||/images/events/genai-devops-2025-06.jpeg||/images/events/oct-2024-meetup.jpeg"
-captions="AWS UG HK BuilderCards Night – Level Up Your Cloud Strategy (March 2025)||AWS UG HK BuilderCards Night – Level Up Your Cloud Strategy (March 2025)||AWS Visitation: Career Insights with GenAI and AWS (May 2025)||AWS UG HK Meetup – User Group Meetup (October 2024)" 
+captions="AWS UG HK BuilderCards Night – Level Up Your Cloud Strategy (March 2025)||AWS UG HK BuilderCards Night – Level Up Your Cloud Strategy (March 2025)||AWS Visitation: Career Insights with GenAI and AWS (May 2025)||AWS UG HK Meetup – User Group Meetup (October 2024)"
 maxheight="500px"
 >}}
 

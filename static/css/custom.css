@@ -1,6 +1,59 @@
-h1, .h1,
-h2, .h2,
+/* Override color theme to purple (#6d4aa9) */
+:root {
+    --primary-400: #8c6fc9;
+    --primary-500: #6d4aa9;
+    --primary-700: #4b2e6f;
+    --primary-800: #2e1847;
+    --white: #fff;
+    --black: #000;
+}
+
+h1,
+.h1,
+h2,
+.h2,
 .header .site-title-link,
-.main-menu .top-menu-item > a {
+.main-menu .top-menu-item>a {
     text-transform: none;
+}
+
+div.fotorama__arr {
+    width: 32px;
+}
+
+div.fotorama__caption__wrap,
+div.fotorama__nav__shaft {
+    width: auto;
+}
+
+div.fotorama__dot {
+    width: 4px;
+}
+
+/* Set link color to main theme color */
+a,
+a:visited {
+    color: var(--primary-700);
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    color: var(--primary-800);
+    text-decoration: underline;
+}
+
+.title {
+    margin-block-start: 30px;
+}
+
+/* Footer link color override for better contrast on dark background */
+.footer a,
+.footer a:visited {
+    color: var(--white);
+}
+
+.footer a:hover,
+.footer a:focus {
+    color: var(--primary-400);
 }
