@@ -16,4 +16,4 @@ Yes, our events are free and open to everyone.
 Absolutely! We welcome speakers from all backgrounds. You can propose a talk by filling out our [Speaker Signup Form](https://docs.google.com/forms/d/e/1FAIpQLSf4EKrVcfNw-NgMMXWUm7zwBdhSAE2GzmPScTzkPdoyjggd2g/viewform?fbclid=IwZXh0bgNhZW0BMQABHfRg47tf4DkHUyowMswC0jDg7E_myE65j5hUZX1X79zrKZNsfGJiZc4ljQ_aem_avzO10z7_LeqC8G26-ITLA), or contact us via Meetup, Slack, or WhatsApp.
 
 ## How can I stay updated?
-Follow us on [Meetup](https://www.meetup.com/hong-kong-amazon-aws-user-group/), [YouTube](https://www.youtube.com/@AWSUGHK), [Slack](https://awsughk.slack.com), [WhatsApp](https://chat.whatsapp.com/DJpkuXPOGy6LKSnmb32b21), and [Facebook](https://www.facebook.com/groups/awshkug) for the latest updates.
+Follow us on [Meetup](https://www.meetup.com/hong-kong-amazon-aws-user-group/), [YouTube](https://www.youtube.com/@AWSUGHK), [Slack](https://awsughk.slack.com/join/shared_invite/zt-1rkztoxuv-fvsuNBHp8Yi1LrKUAxWH7A), [WhatsApp](https://chat.whatsapp.com/DJpkuXPOGy6LKSnmb32b21), and [Facebook](https://www.facebook.com/groups/awshkug) for the latest updates.

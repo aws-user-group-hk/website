@@ -16,7 +16,7 @@ We are a community of AWS users, professionals, and enthusiasts in Hong Kong. Ou
 - **Facebook:** [Join our Facebook group](https://www.facebook.com/groups/awshkug)
 - **WhatsApp:** [Join our WhatsApp group](https://chat.whatsapp.com/DJpkuXPOGy6LKSnmb32b21)
 - **YouTube:** [Watch our talks and recordings](https://www.youtube.com/@AWSUGHK)
-- **Slack:** [Join our Slack](https://awsughk.slack.com)
+- **Slack:** [Join our Slack](https://awsughk.slack.com/join/shared_invite/zt-1rkztoxuv-fvsuNBHp8Yi1LrKUAxWH7A)
 - **Speaker Signup:** [Propose a talk](https://docs.google.com/forms/d/e/1FAIpQLSf4EKrVcfNw-NgMMXWUm7zwBdhSAE2GzmPScTzkPdoyjggd2g/viewform?fbclid=IwZXh0bgNhZW0BMQABHfRg47tf4DkHUyowMswC0jDg7E_myE65j5hUZX1X79zrKZNsfGJiZc4ljQ_aem_avzO10z7_LeqC8G26-ITLA)
 
 ## What We Do
@@ -33,7 +33,7 @@ Whether you are an AWS expert or just getting started, everyone is welcome! Conn
 - [Meetup](https://www.meetup.com/hong-kong-amazon-aws-user-group/)
 - [Facebook Group](https://www.facebook.com/groups/awshkug)
 - [WhatsApp Group](https://chat.whatsapp.com/DJpkuXPOGy6LKSnmb32b21)
-- [Slack](https://awsughk.slack.com)
+- [Slack](https://awsughk.slack.com/join/shared_invite/zt-1rkztoxuv-fvsuNBHp8Yi1LrKUAxWH7A)
 - [Speaker Signup](https://docs.google.com/forms/d/e/1FAIpQLSf4EKrVcfNw-NgMMXWUm7zwBdhSAE2GzmPScTzkPdoyjggd2g/viewform?fbclid=IwZXh0bgNhZW0BMQABHfRg47tf4DkHUyowMswC0jDg7E_myE65j5hUZX1X79zrKZNsfGJiZc4ljQ_aem_avzO10z7_LeqC8G26-ITLA)
 
 ## About Us

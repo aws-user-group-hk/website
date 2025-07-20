@@ -4,9 +4,7 @@
 # logo_on_white: "/img/logo-b.svg"
 # logo_on_black: "/img/logo-w.svg"
 # custom_js: []
-custom_css: [
-  "css/custom.css"
-]
+custom_css: ["css/custom.css"]
 
 ######################## custom config ####################
 
@@ -17,24 +15,24 @@ custom_css: [
 #   repo_url: "https://github.com/username/repo/blob/master"
 #   show_edit_link: true
 
-# social_links:
-#   devstats: ""
-#   discord: ""
-#   facebook: ""
-#   flickr: ""
-#   github: "https://github.com/cncf/dot-org-hugo-theme"
-#   instagram: ""
-#   landscape: ""
-#   linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation"
-#   mastodon: ""
-#   pinterest: ""
-#   rss: ""
-#   slack: ""
-#   stackoverflow: ""
-#   threads: ""
-#   twitter: ""
-#   x: ""
-#   youtube: ""
+social_links:
+  #   devstats: ""
+  #   discord: ""
+  facebook: "https://www.facebook.com/groups/awshkug"
+  #   flickr: ""
+  #   github: "https://github.com/cncf/dot-org-hugo-theme"
+  #   instagram: ""
+  #   landscape: ""
+  #   linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation"
+  #   mastodon: ""
+  #   pinterest: ""
+  #   rss: ""
+  slack: "https://awsughk.slack.com/join/shared_invite/zt-1rkztoxuv-fvsuNBHp8Yi1LrKUAxWH7A"
+  #   stackoverflow: ""
+  #   threads: ""
+  #   twitter: ""
+  #   x: ""
+  youtube: "https://www.youtube.com/@AWSUGHK"
 
 # Makes the header sticky on tall screens
 sticky_header: true
