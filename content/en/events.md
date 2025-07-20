@@ -14,7 +14,6 @@ maxheight="500px"
 - [**AWS UG HK Meetup – HKIIT Humanoid Robotics w/ Amazon Nova & AWS IoT Workshop**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/309238280/)  
   July 25, 2025  
   *A special session on robotics, IoT, and AWS integration, including a live workshop with Amazon Nova.*  
-  <!-- YouTube link for July 2025 not found, please update if available. -->
 
 ## Past Events
 
@@ -24,33 +23,34 @@ maxheight="500px"
   [Watch on YouTube](https://www.youtube.com/watch?v=PYKiJ3F-rcI)
 
 - [**AWS UG HK Meetup – AWS Visitation: Career Insights with GenAI and AWS**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/308061663)  
-  May 2025  
+  May 30, 2025  
   *Career insights from AWS staff on GenAI and cloud, with Q&A and networking. Co-hosted with AWS Cloud Club HK and HKU MEICOM Alumni.*
   [Watch on YouTube](https://www.youtube.com/watch?v=dJyAGxy1QcI)
 
-
-
 - [**AWS UG HK Meetup – "VibeCoding" Night with Amazon Q Developer**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/307313095)  
-  April 2025  
+  April 25, 2025  
   *Beginner-friendly hands-on night exploring Amazon Q Developer, with collaborative mini-projects and live coding for all skill levels. Bring your laptop!*
-  <!-- YouTube link for April 2025 not found, please update if available. -->
 
-- [**AWS UG HK BuilderCards Night – Level Up Your Cloud Strategy**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/306217072)  
-  March 2025  
-  *Interactive night playing AWS BuilderCards (GenAI edition) to learn cloud strategy, with mini-tournament, prizes, and networking. Beginners welcome!*
+- [**AWS UG HK Meetup – Level Up With Gamified Kubernetes & Smart Notifications**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/306886186)  
+  March 28, 2025  
+  *Explore gamified Kubernetes learning and smart AWS notifications. Featuring hands-on demos and talks by AWS Heroes and HKIIT educators. Beginners welcome!*
   [Watch on YouTube](https://www.youtube.com/watch?v=wIgVE6GS1I4)
 
+- [**AWS UG HK BuilderCards Night – Level Up Your Cloud Strategy**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/306217072)  
+  March 7, 2025  
+  *Interactive night playing AWS BuilderCards (GenAI edition) to learn cloud strategy, with mini-tournament, prizes, and networking. Beginners welcome!*
+
 - [**AWS Developer Year-end Meetup**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/304932626)  
-  December 2024  
+  December 13, 2024  
   *Year-end celebration with re:Invent highlights, community sharing, and networking.*
 
 - [**AWS UG HK Meetup – User Group Meetup**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/304755577)  
-  November 2024  
+  November 29, 2024  
   *Meetup at AWS GenAI Experience Center featuring talks on Generative AI, web tech, and AWS, plus networking with industry experts.*
   [Watch on YouTube](https://www.youtube.com/watch?v=9pbNjnSNFHA)
 
 - [**AWS UG HK Meetup – User Group Meetup**](https://www.meetup.com/hong-kong-amazon-aws-user-group/events/304141291)  
-  October 2024  
+  October 25, 2024  
   *Meetup at AWS GenAI Experience Center with talks on Generative AI, no/low-code, AWS learning through gaming, and an expert panel.*
   [Watch on YouTube](https://www.youtube.com/watch?v=y5c-mb0XV1U)
 
