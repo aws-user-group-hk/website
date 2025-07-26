@@ -3,14 +3,12 @@
   <!-- Add homepage -->
   <url>
     <loc>{{ .Site.BaseURL | safeURL }}</loc>
-    <title>{{ .Site.Title | html }}</title>
     {{ with .Site.Lastmod }}<lastmod>{{ .Format "2006-01-02T15:04:05Z07:00" }}</lastmod>{{ end }}
   </url>
   {{- $pages := .Site.RegularPages -}}
   {{- range $pages }}
   <url>
     <loc>{{ .Permalink | safeURL }}</loc>
-    <title>{{ .Title | html }}</title>
     {{ with .Lastmod }}<lastmod>{{ .Format "2006-01-02T15:04:05Z07:00" }}</lastmod>{{ end }}
     {{ with .Params.changefreq }}<changefreq>{{ . }}</changefreq>{{ end }}
     {{ with .Params.priority }}<priority>{{ . }}</priority>{{ end }}
